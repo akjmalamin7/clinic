@@ -590,7 +590,38 @@ img{
 .modalLogo img{
     width:100%;
 }
-
+.onlineSerialButton {
+	margin-top: 30px;
+}
+.onlineSerialButton a{
+    display: inline-block;
+    padding: 11px 46px;
+    border-radius: 3px;
+    border: none;
+    background-color: #2488DD;
+    color: #fff;
+}
+.nav.nav-tabs{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.nav.nav-tabs .nav-item{
+    width:50%;
+    text-align:center;
+}
+.nav-tabs .nav-link{
+    border: 1px solid transparent !important;
+    border-radius: 0px !important;
+    background-color:#35434e !important;
+    color:#fff !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	background-color: #2488DD !important;
+    color: #fff !important;
+    border: 1px solid transparent !important;
+    border-radius: 0px !important;
+}
 /* ==============================================================
 =======================  END CONTACT  SECTION ====================
 =================================================================*/
