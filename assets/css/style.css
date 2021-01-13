@@ -1,0 +1,617 @@
+/*------------------------------------------------------- 
+    Theme Name: zeroSoftBD
+	Theme URI: http://
+	Description: Personal web template 
+	Author: ZeroSoftBD
+	Author URI: 
+	Version: 1.0        
+
+----------------------------------------------------------*/
+
+
+
+/* ==============================================================
+====================== START GLOBAL STORY =======================
+=================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+*{  margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none !important;
+    list-style: none;
+}
+html{
+    width:100%;
+  
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:14px;
+    line-height:24px;
+    color:#a3a3a3;
+    font-weight: 400;
+    width:100%;
+ 
+}
+
+
+
+a{
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+p{
+    line-height: 24px;
+    font-size: 14px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0 !important;
+}
+
+input, textarea{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+			box-shadow: unset !important;
+    border-radius: 0 !important;
+}
+input:focus{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+			box-shadow: unset !important;
+			
+}
+img{
+    width:100%;
+}
+.sectionPadding{
+    padding-top:60px !important;
+    padding-bottom:60px !important;
+}
+.sectionTitle{
+    text-align: center !important;
+    position: relative;
+    z-index: 9999;
+}
+.sectionTitle h2 {
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+}
+/* ==============================================================
+======================== END GLOBAL STORY =======================
+=================================================================*/
+
+
+/* ==============================================================
+======================== START HEADER SECTION ===================
+=================================================================*/
+.navbar-nav li a{
+    font-size:12px !important;
+    margin-right:10px !important;
+}
+.navbar-nav li a.serialMenu {
+	margin-right: 0px !important;
+	background: #2488dd;
+	padding: 5px 20px;
+	display: inline-block !important;
+	width: 120px;
+	text-align: center;
+    margin-top: 3px;
+    color:#fff !important;
+    border-radius:2px;
+}
+.dropdown-menu {
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+}
+.dropdown-menu li a {
+	border-bottom: 1px solid #D7C3C3D6;
+	padding: 10px 16px;
+}
+.dropdown-menu li:last-child a{
+    border-bottom:none !important;
+}
+.navbar{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+::placeholder{
+    font-size:14px;
+}
+/* ==============================================================
+========================== END HEADER SECTION ===================
+=================================================================*/
+
+
+/* ==============================================================
+======================== START SLIDER SECTION ===================
+=================================================================*/
+.carousel-caption {
+    bottom: 10.25rem;
+}
+/* ==============================================================
+======================== END SLIDER SECTION =====================
+=================================================================*/
+
+/* ==============================================================
+==================== START DOCTOR DIVISION SECTION ==============
+=================================================================*/
+.doctorDivisionSetion .doctorItem .card{
+	/* border: 1px solid rgba(0,0,0,.125); */
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.125);
+    border:none !important;
+    transition:.5s;
+}
+.doctorDivisionSetion .doctorItem .card:hover{
+    margin-top:-10px !important;
+}
+.doctorDivisionSetion .doctorItem .card .card-body {
+	padding: 50px !important;
+	min-height: 215px;
+}
+.doctorDivisionSetion .doctorItem .card .card-body{
+    padding:50px !important;
+}
+.doctorDivisionSetion .doctorItem .card .card-body .doctorContent .doctorImage img {
+	width: 75px !important;
+	border: 1px solid;
+	border-radius: 50%;
+	padding: 10px;
+}
+.doctorDivisionSetion .doctorItem .card .card-body .doctorContent .doctorText h4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	margin-top: 20px;
+}
+.doctorDivisionSetion .doctorItem .card .card-body .doctorContent .doctorText h4 a{
+    display: block;
+    text-decoration:none !important;
+    color:#333 !important;
+}
+.mb-21{  
+    margin-bottom:21px;
+ }
+/* ==============================================================
+==================== END DOCTOR DIVISION SECTION ================
+=================================================================*/
+
+/* ==============================================================
+====================  START FORM CHECK SECTION ==================
+=================================================================*/
+.checkSerialForm form .input-group button {
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-left: 14px;
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    background-color: #2488DD;
+    color:#fff;
+    border:1px solid #2488DD;
+    opacity: 1;
+}
+.checkSerialForm form .input-group input{
+    border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+}
+/* ==============================================================
+====================  START FORM CHECK SECTION ==================
+=================================================================*/
+
+
+/* ==============================================================
+===========================  START AD  SECTION ==================
+=================================================================*/
+.adSection {
+	background-image: url(../images/background/ad.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    min-height: 200px;
+    position:relative;
+}
+.adSection .sectionTitle{
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.adSection .sectionTitle h2{
+    font-size:30px;
+}
+/* ==============================================================
+===========================  END AD  SECTION ====================
+=================================================================*/
+
+/* ==============================================================
+=====================  START BREADCRUMB  SECTION ================
+=================================================================*/
+.breadcrumbSection{
+    background-image:url(../images/background/banner-22.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    padding:130px 0 !important; 
+    z-index: 1;
+
+}
+.breadcrumbSection::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #111922b3;
+	height: 100%;
+}
+.breadcrumbSection .sectionTitle {
+	/* position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%); */
+}
+.breadcrumbSection .sectionTitle h2{
+    font-size:40px;
+}
+.breadcrumbSection .checkSerialForm{
+    position: relative;
+    z-index:99;
+}
+/* ==============================================================
+=======================  END BREADCRUMB  SECTION ================
+=================================================================*/
+
+/* ==============================================================
+=======================  START DOCTOR  SECTION ==================
+=================================================================*/
+.singleDoctorItem .card{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.125);
+    border:none !important;
+    transition: .35s;
+}
+.singleDoctorItem .card:hover{
+    border-left:5px solid #2488DD !important;
+    
+}
+.singleDoctorItem .card .card-body{
+    padding:30px 30px !important;
+}
+.doctorDescription .doctorName h3 {
+	font-size: 18px;
+}
+.doctorDescription .doctorInfo p {
+	font-size: 12px !important;
+	line-height: 24px !important;
+	color: #2488DD;
+}
+.doctorInfoArea{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.doctorsName{
+    width:13%;
+}
+.doctorDescription{
+    width:38%
+}
+
+.doctorDescription .doctorInfo {
+	margin-top: 20px;
+}
+.doctorDescription .doctorName h3 {
+	color: #333333e3 !important;
+	font-weight: bold;
+}
+
+.mt-custom-5{
+    margin-top: 5px;
+}
+.doctorAddress{
+    width:23%;
+}
+.doctorSchedule{
+    width: 20%;
+}
+.doctorInfoMargin{
+    margin-right:2%;
+}
+.doctorInfoMargin:last-child{
+    margin-right:0;
+}
+.doctorAddress p, .doctorSchedule p {
+	font-size: 13px;
+	line-height: 23px;
+	color: #756F6F;
+}
+.doctorSchedule p span i{
+    margin-right:5px;
+}
+.doctorCardFooter {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.doctorDept{
+    width:15%;
+}
+.doctorDept p, .doctorHotLine p{
+    font-size:13px;
+    font-weight: normal;
+}
+.doctorDept p {
+	background-color: #F1F3F4;
+	color: #333;
+	display: inline-block;
+	padding: 1px 13px !important;
+	border-radius: 5px;
+}
+.doctorHotLine p{
+    background-color: #F1F3F4;
+	color: #333;
+	display: inline-block;
+	padding: 1px 13px !important;
+	border-radius: 5px;
+}
+.doctorHotLine span i {
+	font-size: 13px;
+	margin-right: 5px;
+}
+.doctorHotLine p a {
+	display: inline-block;
+	margin-left: 6px;
+}
+.doctorHotLine{
+    width:25%;
+}
+.doctorSerialButton{
+    width:60%;
+    text-align: right;
+}
+.doctorSerialButton a {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+	background: #2488DD;
+	padding: 3px 46px;
+	border-radius: 3px;
+	color: #fff;
+}
+.card-footer{
+    background-color:transparent !important;
+    padding: 15px 30px !important;
+}
+.singleDoctorItemMarginbottom{
+    margin-bottom:40px !important;
+}
+.singleDoctorItemMarginbottom:last-child{
+    margin-bottom:0px;
+}
+
+.doctorName .doctorCardFooter .doctorDept{
+    width:auto !important;
+}
+.doctorName .doctorCardFooter .doctorHotLine{
+    width:auto !important;
+}
+.singleHospitalItem .doctorImages.hospitalImage{
+    width:10%;
+}
+.singleHospitalItem .doctorDescription.singleHospitalItemDescription{
+    width: 48%;
+    padding-left:20px;
+}
+.singleHospitalItem .doctorDescription.singleHospitalItemDescription .doctorCardFooter{
+    justify-content: flex-start !important;
+}
+.singleHospitalItem .singleHospitalItemAdress.singleHospitalItemAdress{
+    width:18%;
+}
+.singleHospitalItem .doctorSchedule.singleHospitalItemSchedule{
+    width:18%
+}
+.singleHospitalItem .doctorSchedule.singleHospitalItemSchedule .doctorSerialButton{
+    width: auto;
+}
+.singleHospitalItemDescription .doctorCardFooter .doctorDept p, .singleHospitalItemDescription .doctorCardFooter .doctorHotLine p{
+    font-size:11px !important;
+}
+.doctorChamberOpen p{
+    font-size:11px;
+}
+.doctorChamberOpen p i{
+    margin-right:5px;
+}
+.singleHospitalItemDescription .doctorName h3{
+    font-size:15px;
+}
+.open24 {
+	background-color: #2488DD;
+	padding: 2px 10px;
+	color: #fff;
+	margin-left: 10px;
+	border-radius: 2px;
+}
+/* ==============================================================
+=======================  END DOCTOR  SECTION ====================
+=================================================================*/
+
+/* ==============================================================
+===================  START AMBULACE  SECTION ====================
+=================================================================*/
+.ambulanceSection{
+    background-image:url(../images/background/banner-22.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+
+}
+.ambulanceSection::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f7f7f7eb;
+}
+.ambulanceBookingFormArea {
+    position: relative;
+    min-height: 620px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ambulanceSection .ambulanceBookingFormArea .inputFieldItem input {
+	border-radius: 26px !important;
+	padding: 8px 14px;
+	border: 5px solid #56A2B554;
+}
+.ambulanceSection .ambulanceBookingFormArea .inputFieldItem input::placeholder{
+    font-size:13px;
+}
+.ambulanceSection .ambulanceBookingFormArea .inputFieldItem {
+	margin-bottom: 15px !important;
+}
+.ambulanceSection .ambulanceBookingFormArea .inputFieldItem button.AmbulanceButton, .contactButtonArea .contactButton{
+    display: inline-block;
+    padding: 11px 46px;
+    border-radius: 26px;
+    border: none;
+    background-color:#2488DD;
+    color:#fff;
+}
+/* ==============================================================
+=====================  END AMBULACE  SECTION ====================
+=================================================================*/
+
+/* ==============================================================
+=====================  START CONTACT  SECTION ====================
+=================================================================*/
+.contactSection .singleAddressItem .card{
+    border:none !important;
+}
+.contactSection .singleAddressItem .card .card-body .singleAddressItemContent{
+    text-align:center;
+}
+.contactSection .singleAddressItem .card .card-body .singleAddressItemContent .singleAddressItemContentIcon{}
+.contactSection .singleAddressItem .card .card-body .singleAddressItemContent .singleAddressItemContentIcon i {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 2px;
+	font-size: 20px;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.13);
+	background-color: #F3F6F8;
+	color: #2488DD;
+}
+.contactSection .singleAddressItem .card .card-body .singleAddressItemContent .singleAddressItemContentText {
+	margin-top: 20px;
+}
+.contactSection .singleAddressItem .card .card-body .singleAddressItemContent .singleAddressItemContentText a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+    font-weight: 400;
+    display:inline-block;
+    color:#707c88;
+}
+.mt-100{
+    margin-top:100px;
+}
+.mb-50{
+    margin-bottom:40px !important;
+}
+.contactFormArea form .inputItemArea{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.contactFormArea form .inputItemArea .inputItem{
+    width: calc(50% - 12px);
+}
+.contactFormArea form .inputItemArea .inputItem input{
+    padding: 8px 14px;
+    border: 5px solid #56A2B554;
+}
+.contactFormArea form .textArea textarea {
+	padding: 20px 14px;
+	border: 5px solid #56A2B554;
+	height: 160px;
+    line-height: 1px;
+    box-shadow: 0 none;
+}
+.contactFormArea form .textArea textarea::placeholder{
+    margin-top:20px;
+}
+.contactFormArea form .textArea, .contactButtonArea {
+	margin-top: 15px;
+}
+.contactButtonArea{
+
+}
+.contactButton{}
+.modal-dialog {
+    max-width: 700px !important;
+    width:100%;
+	margin: 1.75rem auto;
+}
+.onlineSerialContent {
+	border: 1px solid #2488DD;
+	padding: 19px;
+	text-align: center;
+}
+.modalLogo{
+    width:200px !important;
+    display: block;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+.modalLogo img{
+    width:100%;
+}
+
+/* ==============================================================
+=======================  END CONTACT  SECTION ====================
+=================================================================*/
+
+
+/* ==============================================================
+======================= START FOOTER SECTION ====================
+=================================================================*/
+.footerSection{
+    background-color: #1C2733;
+}
+.footerSection .footerContent h4 {
+	font-size: 16px;
+}
+.footerSocket {
+	background-color: #111922;
+	padding: 20px 0;
+}
+.footerSocket p{
+    margin-bottom:0px !important;
+}
+/* ==============================================================
+======================= START FOOTER SECTION ====================
+=================================================================*/

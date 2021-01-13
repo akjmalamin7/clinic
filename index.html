@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZeroSoftBD</title>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <!-- ===== Bootstrap Css ==== -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
+         <!-- ===== Main Css ==== -->
+         <link rel="stylesheet" href="assets/css/style.css">
+         <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    </head>
+    <body>
+        <!-- ======================================  START HEADER SECTION =================================== -->
+        <header class="zeroHeaderSection">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+                <div class="container">
+                    <a href="index.html" class="navabr-brand" style="width:150px;">
+                        <img class="w-100" src="assets/images/logo/zeroSoft2.png" alt="zeroSoftBD">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                   <div class="collapse navbar-collapse" id="myNavBar">
+                       <ul class="navbar-nav custom-menu me-auto">
+                           <li class="nav-item"><a class="nav-link" href="index.html">হোম </a></li>
+                           <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" >ডাক্তার </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-end" href="doctor.html">ডাক্তার</a></li>
+                                    <li><a class="dropdown-item text-end" href="doctor.html">বিশেষজ্ঞ ডাক্তার</a></li>
+                                    <li><a class="dropdown-item text-end" href="doctor.html">জরুরী ডাক্তার</a></li>
+                                    <li><a class="dropdown-item text-end" href="doctor.html">সনোলজিস্ট </a></li>
+                                </ul>
+                            </li>
+                           <li class="nav-item"><a class="nav-link" href="hospital.html">হাসপাতাল </a></li>
+                           <li class="nav-item"><a class="nav-link" href="Ambulance.html">অ্যাম্বুলেন্স</a></li>
+                           <li class="nav-item"><a class="nav-link" href="blood.html">ব্লাড</a></li>
+                           <li class="nav-item"><a class="nav-link" href="eSheba.html"> ই সেবা</a></li>
+                           <li class="nav-item"><a class="nav-link" href="contact.html"> যোগাযোগ</a></li>
+                           <li class="nav-item"><a class="nav-link serialMenu" href="#" data-bs-toggle="modal" data-bs-target="#modalsAr"> সিরিয়াল দিন</a></li>
+                       </ul>
+                   </div>
+                </div>
+            </nav>
+        </header>
+        <!-- ========================================  END HEADER SECTION =================================== -->
+
+        <!-- ======================================== START SLIDER SECTION ================================== -->
+       <section class="slider-section clearfix">
+            <div id="zeroCarouselSlider" class="carousel slide" data-bs-ride="carousel">
+                <!-- start carousel inner -->
+                <div class="carousel-inner">
+                    <!-- carousel item -->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/images/slider/carousel1.jpg" alt="zeroCarousel">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <!-- carousel item -->
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="assets/images/slider/carousel1.jpg" alt="zeroCarousel">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <!-- carousel item -->
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="assets/images/slider/carousel1.jpg" alt="zeroCarousel">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end carousel inner -->
+
+                <!-- start carousel control -->
+                <a href="#zeroCarouselSlider" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span  class="carousel-control-next-icon"></span>
+                </a>
+                <a href="#zeroCarouselSlider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <!-- end carousel control -->
+
+                <!-- start carousel indicator -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#zeroCarouselSlider" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#zeroCarouselSlider" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#zeroCarouselSlider" data-bs-slide-to="2"></li>
+                </ol>
+                <!-- end carousel indicator -->
+            </div>
+       </section>
+        <!-- ======================================== END SLIDER SECTION ==================================== -->
+
+        <!-- =============================== START DOCTOR DIVISION SECTION ================================== -->
+        <section class="doctorDivisionSetion sectionPadding clearfix">
+            <div class="container">
+                <!-- start section title -->
+                <div class="row">
+                    <div class="sectionTitle mb-3">
+                        <h2>ডাক্তারদের বিভাগ</h2>
+                    </div>
+                </div>
+                  <!-- end section title -->
+
+                <!-- start doctor area -->
+               <div class="doctorItem">
+                    <div class="row mt-5">
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/medicine.jpg" alt="madicine">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">মেডিসিন</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/gaini.jpg" alt="gaini">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">গাইনী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/chokkhu.jpg" alt="chokkhu">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">চক্ষু</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/shishu.jpg" alt="shishu">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">শিশু</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/hridrog.jpg" alt="hridrog">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">হৃদরোগ</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/kidney.jpg" alt="kidney">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">কিডনী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/liver.jpg" alt="liver">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">লিভার</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/manosik.jpg" alt="manosik">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">মানসিক</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/nakkangola.png" alt="nakkangola">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">নাক কান গলা</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/sergery.png" alt="sergery">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">সার্জারী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/hormon.png" alt="hormon">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">হরমোন</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/chormojouno.jpg" alt="chormojouno">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">চর্ম-যৌন</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/harjora.jpg" alt="harjora">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">হাড়-জোড়া</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/urology.jpg" alt="urology">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">চইউরোলজী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/dental.jpg" alt="dental">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">ডেন্টাল</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/darayabetics.png" alt="darayabetics">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">চডায়াবেটিস</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/figiotherapy.jpg" alt="figiotherapy">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">ফিজিওথেরাপী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/newromedicine.png" alt="newromedicine">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">নিউরো মেডিসিন</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/anasthesiya.jpg" alt="anasthesiya">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">এনাসথেশিয়া</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/gestroentarology.jpg" alt="gestroentarology">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">গ্যাস্ট্রোএন্টারোলজী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/shishutherapy.jpg" alt="shishutherapy">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">শিশু সার্জারী</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/pathology.jpg" alt="pathology">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">প্যাথলজি</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/hematology.jpg" alt="hematology">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">হেমাটোলজি</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single doctor item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-21">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                   <div class="doctorContent">
+                                       <!-- doctor image -->
+                                       <div class="doctorImage">
+                                            <img src="assets/images/doctorIcon/sonologist.jpg" alt="sonologist">
+                                       </div>
+
+                                       <!-- doctor text -->
+                                       <div class="doctorText">
+                                           <h4><a href="#">সনোলজিষ্ট</a></h4>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <!-- end doctor area -->
+                
+            </div>
+        </section>
+        <!-- ================================= END DOCTOR DIVISION SECTION ================================== -->
+
+        <!-- =================================  START CHECK SERIAL SECTION ================================== -->
+        <section class="checkSerialSection sectionPadding clearfix">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="sectionTitle">
+                            <h2> সিরিয়াল চেক করতে মোবাইল নাম্বার দিন </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt-5">
+                        <div class="checkSerialForm">
+                            <form action="#" method="POST">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control form-control-lg" placeholder="ডাক্তার নাম / হাসপাতাল " aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">অনুসন্ধান </button>
+                                  </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================================  END CHECK SERIAL SECTION ==================================== -->
+
+        <!-- ========================================  START AD  SECTION ==================================== -->
+        <section class="adSection sectionPadding clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sectionTitle">
+                            <h2 class="text-white">বিজ্ঞাপন দিন </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================================  END AD  SECTION ====================================== -->
+
+        <!-- ================================= ======START FOOTER  SECTION======= =========================== -->
+        <footer class="footerSection pt-5 clearfix">
+            <div class="footerContent border-top">
+                <div class="container mt-5 pb-5">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <h4>বিজ্ঞাপন দিন</h4>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>বিজ্ঞাপন দিন</h4>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>বিজ্ঞাপন দিন</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </footer>
+         <!-- socket -->
+         <div class="footerSocket">
+            <div class="container">
+               <div class="row ">
+                   <div class="col-12 text-center">
+                        <p>© সর্বস্বত্ব সংরক্ষিতঃ zeroSoftBD </p>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <!-- =====================================END FOOTER  SECTION ======================================= -->
+        
+
+        <!-- ================================================  JS LINK ======================================= -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
