@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
         <!-- ===== Bootstrap Css ==== -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl" crossorigin="anonymous">
+
          <!-- ===== Main Css ==== -->
          <link rel="stylesheet" href="assets/css/style.css">
          <link rel="stylesheet" href="assets/css/responsive.css">
@@ -25,9 +26,9 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                    <div class="collapse navbar-collapse" id="myNavBar">
-                       <ul class="navbar-nav custom-menu me-auto">
-                           <li class="nav-item"><a class="nav-link" href="index.html">হোম </a></li>
-                           <li class="nav-item dropdown">
+                       <ul class="navbar-nav  me-auto bootstrapMobileMenu">
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link" href="index.html">হোম </a></li>
+                           <li class="nav-item borderBottomInMenuItem dropdown">
                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" >ডাক্তার </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item text-end" href="doctor.html">ডাক্তার</a></li>
@@ -36,12 +37,12 @@
                                     <li><a class="dropdown-item text-end" href="doctor.html">সনোলজিস্ট </a></li>
                                 </ul>
                             </li>
-                           <li class="nav-item"><a class="nav-link" href="hospital.html">হাসপাতাল </a></li>
-                           <li class="nav-item"><a class="nav-link" href="Ambulance.html">অ্যাম্বুলেন্স</a></li>
-                           <li class="nav-item"><a class="nav-link" href="blood.html">ব্লাড</a></li>
-                           <li class="nav-item"><a class="nav-link" href="eSheba.html"> ই সেবা</a></li>
-                           <li class="nav-item"><a class="nav-link" href="contact.html"> যোগাযোগ</a></li>
-                           <li class="nav-item"><a class="nav-link serialMenu" href="#" data-bs-toggle="modal" data-bs-target="#modalsAr"> সিরিয়াল দিন</a></li>
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link" href="hospital.html">হাসপাতাল </a></li>
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link" href="Ambulance.html">অ্যাম্বুলেন্স</a></li>
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link" href="blood.html">ব্লাড</a></li>
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link" href="eSheba.html"> ই সেবা</a></li>
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link" href="contact.html"> যোগাযোগ</a></li>
+                           <li class="nav-item borderBottomInMenuItem"><a class="nav-link serialMenu" href="#" data-bs-toggle="modal" data-bs-target="#modalsAr"> সিরিয়াল দিন</a></li>
                        </ul>
                    </div>
                 </div>
@@ -82,10 +83,10 @@
                            <div class="card singleDoctorItemMarginbottom">
                                <div class="card-body">
                                     <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
+                                        <div class="doctorImages ">
                                             <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
                                         </div>
-                                        <div class="doctorDescription doctorInfoMargin">
+                                        <div class="doctorDescription ">
                                             <div class="doctorName">
                                                  <h3>ডাঃ আল - আমীন</h3>
                                                  <h3 class="mt-custom-5">Dr. Al-Amin</h3>
@@ -94,10 +95,10 @@
                                                  <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
                                             </div>
                                         </div>
-                                        <div class="doctorAddress doctorInfoMargin">
+                                        <div class="doctorAddress ">
                                             <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
                                         </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
+                                        <div class="doctorSchedule ">
                                             <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
                                         </div>
                                     </div>
@@ -123,10 +124,10 @@
                            <div class="card singleDoctorItemMarginbottom">
                                <div class="card-body">
                                     <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
+                                        <div class="doctorImages ">
                                             <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
                                         </div>
-                                        <div class="doctorDescription doctorInfoMargin">
+                                        <div class="doctorDescription ">
                                             <div class="doctorName">
                                                  <h3>ডাঃ আল - আমীন</h3>
                                                  <h3 class="mt-custom-5">Dr. Al-Amin</h3>
@@ -135,10 +136,10 @@
                                                  <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
                                             </div>
                                         </div>
-                                        <div class="doctorAddress doctorInfoMargin">
+                                        <div class="doctorAddress ">
                                             <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
                                         </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
+                                        <div class="doctorSchedule ">
                                             <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
                                         </div>
                                     </div>
@@ -164,10 +165,10 @@
                            <div class="card singleDoctorItemMarginbottom">
                                <div class="card-body">
                                     <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
+                                        <div class="doctorImages ">
                                             <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
                                         </div>
-                                        <div class="doctorDescription doctorInfoMargin">
+                                        <div class="doctorDescription ">
                                             <div class="doctorName">
                                                  <h3>ডাঃ আল - আমীন</h3>
                                                  <h3 class="mt-custom-5">Dr. Al-Amin</h3>
@@ -176,10 +177,10 @@
                                                  <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
                                             </div>
                                         </div>
-                                        <div class="doctorAddress doctorInfoMargin">
+                                        <div class="doctorAddress ">
                                             <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
                                         </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
+                                        <div class="doctorSchedule ">
                                             <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
                                         </div>
                                     </div>
@@ -205,10 +206,10 @@
                            <div class="card singleDoctorItemMarginbottom">
                                <div class="card-body">
                                     <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
+                                        <div class="doctorImages ">
                                             <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
                                         </div>
-                                        <div class="doctorDescription doctorInfoMargin">
+                                        <div class="doctorDescription ">
                                             <div class="doctorName">
                                                  <h3>ডাঃ আল - আমীন</h3>
                                                  <h3 class="mt-custom-5">Dr. Al-Amin</h3>
@@ -217,215 +218,10 @@
                                                  <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
                                             </div>
                                         </div>
-                                        <div class="doctorAddress doctorInfoMargin">
+                                        <div class="doctorAddress ">
                                             <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
                                         </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
-                                            <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
-                                        </div>
-                                    </div>
-                               </div>
-                               <div class="card-footer">
-                                   <div class="doctorCardFooter">
-                                       <div class="doctorDept">
-                                           <p>হাড় -জোড়া</p>
-                                       </div>
-                                       <div class="doctorHotLine">
-                                           <p><span><i class="fas fa-phone-alt"></i>হটলাইন </span> <a href="tel:0180745577">+880180745577</a></p>
-                                       </div>
-                                       <div class="doctorSerialButton">
-                                           <a href="#">সিরিয়াল দিন</a>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-12 ">
-                       <div class="singleDoctorItem ">
-                           <div class="card singleDoctorItemMarginbottom">
-                               <div class="card-body">
-                                    <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
-                                            <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
-                                        </div>
-                                        <div class="doctorDescription doctorInfoMargin">
-                                            <div class="doctorName">
-                                                 <h3>ডাঃ আল - আমীন</h3>
-                                                 <h3 class="mt-custom-5">Dr. Al-Amin</h3>
-                                            </div>
-                                            <div class="doctorInfo">
-                                                 <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
-                                            </div>
-                                        </div>
-                                        <div class="doctorAddress doctorInfoMargin">
-                                            <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
-                                        </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
-                                            <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
-                                        </div>
-                                    </div>
-                               </div>
-                               <div class="card-footer">
-                                   <div class="doctorCardFooter">
-                                       <div class="doctorDept">
-                                           <p>হাড় -জোড়া</p>
-                                       </div>
-                                       <div class="doctorHotLine">
-                                           <p><span><i class="fas fa-phone-alt"></i>হটলাইন </span> <a href="tel:0180745577">+880180745577</a></p>
-                                       </div>
-                                       <div class="doctorSerialButton">
-                                           <a href="#">সিরিয়াল দিন</a>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-12 ">
-                       <div class="singleDoctorItem ">
-                           <div class="card singleDoctorItemMarginbottom">
-                               <div class="card-body">
-                                    <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
-                                            <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
-                                        </div>
-                                        <div class="doctorDescription doctorInfoMargin">
-                                            <div class="doctorName">
-                                                 <h3>ডাঃ আল - আমীন</h3>
-                                                 <h3 class="mt-custom-5">Dr. Al-Amin</h3>
-                                            </div>
-                                            <div class="doctorInfo">
-                                                 <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
-                                            </div>
-                                        </div>
-                                        <div class="doctorAddress doctorInfoMargin">
-                                            <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
-                                        </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
-                                            <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
-                                        </div>
-                                    </div>
-                               </div>
-                               <div class="card-footer">
-                                   <div class="doctorCardFooter">
-                                       <div class="doctorDept">
-                                           <p>হাড় -জোড়া</p>
-                                       </div>
-                                       <div class="doctorHotLine">
-                                           <p><span><i class="fas fa-phone-alt"></i>হটলাইন </span> <a href="tel:0180745577">+880180745577</a></p>
-                                       </div>
-                                       <div class="doctorSerialButton">
-                                           <a href="#">সিরিয়াল দিন</a>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-12 ">
-                       <div class="singleDoctorItem ">
-                           <div class="card singleDoctorItemMarginbottom">
-                               <div class="card-body">
-                                    <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
-                                            <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
-                                        </div>
-                                        <div class="doctorDescription doctorInfoMargin">
-                                            <div class="doctorName">
-                                                 <h3>ডাঃ আল - আমীন</h3>
-                                                 <h3 class="mt-custom-5">Dr. Al-Amin</h3>
-                                            </div>
-                                            <div class="doctorInfo">
-                                                 <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
-                                            </div>
-                                        </div>
-                                        <div class="doctorAddress doctorInfoMargin">
-                                            <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
-                                        </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
-                                            <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
-                                        </div>
-                                    </div>
-                               </div>
-                               <div class="card-footer">
-                                   <div class="doctorCardFooter">
-                                       <div class="doctorDept">
-                                           <p>হাড় -জোড়া</p>
-                                       </div>
-                                       <div class="doctorHotLine">
-                                           <p><span><i class="fas fa-phone-alt"></i>হটলাইন </span> <a href="tel:0180745577">+880180745577</a></p>
-                                       </div>
-                                       <div class="doctorSerialButton">
-                                           <a href="#">সিরিয়াল দিন</a>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-12 ">
-                       <div class="singleDoctorItem ">
-                           <div class="card singleDoctorItemMarginbottom">
-                               <div class="card-body">
-                                    <div class="doctorInfoArea">
-                                        <div class="doctorImages doctorInfoMargin">
-                                            <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
-                                        </div>
-                                        <div class="doctorDescription doctorInfoMargin">
-                                            <div class="doctorName">
-                                                 <h3>ডাঃ আল - আমীন</h3>
-                                                 <h3 class="mt-custom-5">Dr. Al-Amin</h3>
-                                            </div>
-                                            <div class="doctorInfo">
-                                                 <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
-                                            </div>
-                                        </div>
-                                        <div class="doctorAddress doctorInfoMargin">
-                                            <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
-                                        </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
-                                            <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
-                                        </div>
-                                    </div>
-                               </div>
-                               <div class="card-footer">
-                                   <div class="doctorCardFooter">
-                                       <div class="doctorDept">
-                                           <p>হাড় -জোড়া</p>
-                                       </div>
-                                       <div class="doctorHotLine">
-                                           <p><span><i class="fas fa-phone-alt"></i>হটলাইন </span> <a href="tel:0180745577">+880180745577</a></p>
-                                       </div>
-                                       <div class="doctorSerialButton">
-                                           <a href="#">সিরিয়াল দিন</a>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-12 ">
-                       <div class="singleDoctorItem ">
-                           <div class="card singleDoctorItemMarginbottom">
-                               <div class="card-body">
-                                    <div class="doctorInfoArea">
-                                        <div class="doctorImage doctorInfoMargin">
-                                            <img style="width: 100px !important;" src="assets/images/doctorImage/about-akjm.jpg" alt="DoctorImage">
-                                        </div>
-                                        <div class="doctorDescription doctorInfoMargin">
-                                            <div class="doctorName">
-                                                 <h3>ডাঃ আল - আমীন</h3>
-                                                 <h3 class="mt-custom-5">Dr. Al-Amin</h3>
-                                            </div>
-                                            <div class="doctorInfo">
-                                                 <p>এমবিবিএস, বিসিএস (স্বাস্থ্য) ডি-অর্থো (ঢাকা মেডিকেল কলেজ হাসপাতাল) সিসিডি (বারডেম) পিজিটি (ক্যাজুয়ালিটি) এফসিপিএস (শেষ পর্ব) সার্জারী, হাড় জোড়, বাত-ব্যথা, প্যারালাইসিস, হাটু ও কোমড় ব্যথা এবং আঘাতজনিত রোগ বিশেষজ্ঞ ও সার্জন, ডায়াবেটিস, বার্ণ (পোড়া) ও প্লাষ্টিক সার্জারীতে অভিজ্ঞ</p>
-                                            </div>
-                                        </div>
-                                        <div class="doctorAddress doctorInfoMargin">
-                                            <p>চেম্বার <span><i class="fas fa-map-marker-alt"></i> </span>বাংলাদেশ ডিজিটাল ডায়াগনস্টিক সেন্টার</p>
-                                        </div>
-                                        <div class="doctorSchedule doctorInfoMargin">
+                                        <div class="doctorSchedule ">
                                             <p><span><i class="far fa-clock"></i></span>প্রতিদিন বিকাল ৩টা থেকে রাত ৮টা (শুক্রবার বন্ধ)</p>
                                         </div>
                                     </div>

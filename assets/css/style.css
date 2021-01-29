@@ -14,6 +14,7 @@
 ====================== START GLOBAL STORY =======================
 =================================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
 *{  margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -137,6 +138,13 @@ img{
 =================================================================*/
 .carousel-caption {
     bottom: 10.25rem;
+}
+.slider-section{
+    height:500px !important;
+}
+.carousel-item img{
+    height:500px;
+    object-fit: cover;
 }
 /* ==============================================================
 ======================== END SLIDER SECTION =====================
@@ -287,8 +295,8 @@ img{
     border-left:5px solid #2488DD !important;
     
 }
-.singleDoctorItem .card .card-body{
-    padding:30px 30px !important;
+.singleDoctorItem .card .card-body {
+	padding: 20px 15px !important;
 }
 .doctorDescription .doctorName h3 {
 	font-size: 18px;
@@ -302,13 +310,20 @@ img{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
+.doctorImages{
+    width:calc(19% - 20px);
+    margin:10px;
+}
 .doctorsName{
-    width:13%;
+    width:calc(13% - 20px);
+    margin:10px;
 }
 .doctorDescription{
-    width:38%
+    width:calc(38% - 20px);
+    margin:10px;
 }
 
 .doctorDescription .doctorInfo {
@@ -377,10 +392,10 @@ img{
 	margin-left: 6px;
 }
 .doctorHotLine{
-    width:25%;
+    width:35%;
 }
 .doctorSerialButton{
-    width:60%;
+    width:50%;
     text-align: right;
 }
 .doctorSerialButton a {
@@ -392,6 +407,17 @@ img{
 	border-radius: 3px;
 	color: #fff;
 }
+.doctorSerialButton.hostPitalButton a{
+    display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+	background: #2488DD;
+	padding: 3px 2px;
+	border-radius: 3px;
+    color: #fff;
+    width:100%;
+    text-align:center;
+}
 .card-footer{
     background-color:transparent !important;
     padding: 15px 30px !important;
@@ -399,9 +425,7 @@ img{
 .singleDoctorItemMarginbottom{
     margin-bottom:40px !important;
 }
-.singleDoctorItemMarginbottom:last-child{
-    margin-bottom:0px;
-}
+
 
 .doctorName .doctorCardFooter .doctorDept{
     width:auto !important;
@@ -410,23 +434,36 @@ img{
     width:auto !important;
 }
 .singleHospitalItem .doctorImages.hospitalImage{
-    width:10%;
+    width:calc(10% - 24px);
+    margin:12px;
 }
 .singleHospitalItem .doctorDescription.singleHospitalItemDescription{
-    width: 48%;
-    padding-left:20px;
+    width: calc(48% - 24px);
+    margin:12px;
+    /* padding-left: 30px; */
 }
 .singleHospitalItem .doctorDescription.singleHospitalItemDescription .doctorCardFooter{
     justify-content: flex-start !important;
 }
 .singleHospitalItem .singleHospitalItemAdress.singleHospitalItemAdress{
-    width:18%;
+    width:calc(18% - 24px);
+    margin:12px;
 }
 .singleHospitalItem .doctorSchedule.singleHospitalItemSchedule{
-    width:18%
+    width:calc(18% - 24px);
+    margin:12px;
 }
-.singleHospitalItem .doctorSchedule.singleHospitalItemSchedule .doctorSerialButton{
+/* .singleHospitalItem .doctorSchedule.singleHospitalItemSchedule .doctorSerialButton{
     width: auto;
+} */
+.hostPitalButton a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    background: #2488DD;
+    padding: 3px 46px;
+    border-radius: 3px;
+    color: #fff;
 }
 .singleHospitalItemDescription .doctorCardFooter .doctorDept p, .singleHospitalItemDescription .doctorCardFooter .doctorHotLine p{
     font-size:11px !important;
@@ -530,7 +567,7 @@ img{
 	font-size: 16px;
 	line-height: 26px;
     font-weight: 400;
-    display:inline-block;
+    display:block;
     color:#707c88;
 }
 .mt-100{
